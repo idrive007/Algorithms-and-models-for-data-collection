@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-06-05">
+    <creator>NetworkX 2.8.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="bassylone" label="bassylone" />
+      <node id="ibnsenloran" label="Ольга Ковалевська" />
+      <node id="thescandinavianfelines" label="The Scandinavianfelines" />
+      <node id="mario_the_menace" label="ᗰᗩᖇIO Tᕼᗴ ᗰᗴᑎᗩᑕᗴ 🐾" />
+      <node id="artemisa.husky" label="Artemisa Husky" />
+      <node id="arnoldtheragdoll" label="Arnold 🐾" />
+      <node id="vuvus_blog" label="Kali and The Kitties" />
+      <node id="lucrezia_exotic" label="Lucrezia♀️😻" />
+      <node id="washington_meezers" label="Izma &amp; Lana" />
+      <node id="nala.leopard" label="Nala &amp; Wizzy 🐆" />
+      <node id="the.cat.mama" label="Pip, Poco &amp; Gus" />
+      <node id="milcat_snow" label="Hello! I’m Silver Milka🍫" />
+      <node id="fuukosan408" label="ふぅ☆春☆福☆桜" />
+      <node id="voodoolove.y2k" label="voodoolove" />
+      <node id="si_pupu_meow" label="si_pupu_meow" />
+      <node id="odrryl" label="Daryna" />
+      <node id="dog_annie" label="Annie Spitz 🇺🇦" />
+      <node id="florabritishshorthair" label="Flora 🐻" />
+      <node id="thecatbalim" label="Balım" />
+      <node id="thehappymeow" label="The Happy Meow" />
+      <node id="leo_siberian_cat" label="Little_Lion_Leo" />
+    </nodes>
+    <edges>
+      <edge source="bassylone" target="ibnsenloran" id="0" />
+      <edge source="bassylone" target="thescandinavianfelines" id="1" />
+      <edge source="bassylone" target="mario_the_menace" id="2" />
+      <edge source="bassylone" target="artemisa.husky" id="3" />
+      <edge source="bassylone" target="arnoldtheragdoll" id="4" />
+      <edge source="bassylone" target="vuvus_blog" id="5" />
+      <edge source="bassylone" target="lucrezia_exotic" id="6" />
+      <edge source="bassylone" target="washington_meezers" id="7" />
+      <edge source="bassylone" target="nala.leopard" id="8" />
+      <edge source="bassylone" target="the.cat.mama" id="9" />
+      <edge source="bassylone" target="milcat_snow" id="10" />
+      <edge source="bassylone" target="fuukosan408" id="11" />
+      <edge source="bassylone" target="voodoolove.y2k" id="12" />
+      <edge source="bassylone" target="si_pupu_meow" id="13" />
+      <edge source="bassylone" target="odrryl" id="14" />
+      <edge source="bassylone" target="dog_annie" id="15" />
+      <edge source="bassylone" target="florabritishshorthair" id="16" />
+      <edge source="bassylone" target="thecatbalim" id="17" />
+      <edge source="bassylone" target="thehappymeow" id="18" />
+      <edge source="bassylone" target="leo_siberian_cat" id="19" />
+      <edge source="ibnsenloran" target="odrryl" id="20" />
+      <edge source="ibnsenloran" target="florabritishshorthair" id="21" />
+      <edge source="thescandinavianfelines" target="arnoldtheragdoll" id="22" />
+      <edge source="thescandinavianfelines" target="nala.leopard" id="23" />
+      <edge source="thescandinavianfelines" target="milcat_snow" id="24" />
+      <edge source="thescandinavianfelines" target="voodoolove.y2k" id="25" />
+      <edge source="thescandinavianfelines" target="florabritishshorthair" id="26" />
+      <edge source="mario_the_menace" target="washington_meezers" id="27" />
+      <edge source="mario_the_menace" target="the.cat.mama" id="28" />
+      <edge source="mario_the_menace" target="milcat_snow" id="29" />
+    </edges>
+  </graph>
+</gexf>
