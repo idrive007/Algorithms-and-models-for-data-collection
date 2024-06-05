@@ -1,0 +1,163 @@
+% a mashup of hipstercv, friggeri and twenty cv
+% https://www.latextemplates.com/template/twenty-seconds-resumecv
+% https://www.latextemplates.com/template/friggeri-resume-cv
+
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Daryna}{Pavlenko}{Front-end Developer}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+    \roundpic{user.jpg}
+\end{center}
+
+\bg{cvorange}{white}{About Me} \\[0.5em]
+
+Crafting responsive and interactive web applications. Passionate about user experience, performance optimization, and clean code.
+
+\bigskip
+
+\bg{cvorange}{white}{Interests} \\[0.5em]
+photography | art | UI/UX design | hiking
+
+\bigskip
+
+\bg{cvorange}{white}{Contact Me} \\[0.2em]
+\infobubble{\faAt}{cvorange}{white}{daryna.p@gmail.com}
+\infobubble{\faGithub}{cvorange}{white}{idrive007}
+\bigskip
+
+\bg{cvorange}{white}{Telephone} \\[0.5em]
++0988252112
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Education}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2019 -- Now}{National Technical University
+«Kharkiv Polytechnic Institute»}{}{Master's Degree \color{cvred}}{Ongoing education.}{university.jpg} \\
+    \cvevent{2023 -- 2024}{Lemon School}{}{Front-End Development \color{cvred}}{Professional skills:
+Databases and query languages.
+Version control tools.
+Graphic editors (Photoshop).
+Principles of building a Backend.
+Libraries and frameworks. Working with CMS.
+HTML and CSS. JavaScript.}{lemon.jpg}
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Degree}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{2023}{Bachelor}{Certified}{Kharkiv Polytechnic Institute \color{cvorange}}{}{university.jpg} \\
+   
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Technologies}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{html, css, sass} &  \barrule{0.45}{0.5em}{cvorange}\\
+     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.25}{0.5em}{cvorange} \\
+     \bg{skilllabelcolour}{iconcolour}{react.js} & \barrule{0.4}{0.5em}{cvorange} \\
+     \bg{skilllabelcolour}{iconcolour}{vue.js} & \barrule{0.25}{0.5em}{cvorange} \\
+\end{tabular}
+\end{minipage}
+
+\section*{Experience}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2024}{Home of Arts}{Front-end developer}{1 section \color{cvred}}{Developed Lot section. Implemented responsive design techniques ensuring compatibility across various devices and browsers}{homeofarts.png} \\
+    
+\end{tabular}
+\bigskip
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Publications}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+    2023 & \emph{Development of the Easy3D plugin for front-end developers.} \\
+\end{tabular}
+\bigskip
+
+\section*{Languages}
+\begin{tabular}{l | ll}
+\textbf{English} & B2  \\
+\textbf{German} & A2  \\
+\textbf{Ukrainian} & Native  \\
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small  \icon{\faEnvelopeO}{cvorange}{} Daryna Pavlenko \icon{\faMapMarker}{cvorange}{} Ukraine  \icon{\faPhone}{cvorange}{} +380988252112 \newline\icon{\faAt}{cvorange}{} \protect\url{daryna.p@gmail.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
